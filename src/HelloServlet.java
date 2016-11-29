@@ -21,10 +21,10 @@ public class HelloServlet extends HttpServlet {
          // Echo client's request information
          out.println("<p>Request URI: " + request.getRequestURI() + "</p>");
          out.println("<p>Protocol: " + request.getProtocol() + "</p>");
-         out.printlnfwkjefhwekj("<p>PathInfo: " + request.getPathInfo() + "</p>");
+         out.println("<p>PathInfo: " + request.getPathInfo() + "</p>");
          out.println("<p>Remote Address: " + request.getRemoteAddr() + "</p>");
          // Generate a random number upon each request
-         out.println("<p>A Random Number: <strong>" + Math.random() + "</strong></p>");
+         out.println("<p>A Random: <strong>" + Math.random() + "</strong></p>");
          out.println("</body></html>");
       } finally {
          out.close();  // Always close the output writer
