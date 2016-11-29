@@ -15,7 +15,7 @@ public class HelloServlet extends HttpServlet {
       // Write the response message, in an HTML page
       try {
          out.println("<html>");
-         out.println("<head><title>Hello, World</title></head>");
+         out.println("<head><title>Hello, World Commit</title></head>");
          out.println("<body>");
          out.println("<h1>Hello, world!</h1>");  // says Hello
          // Echo client's request information
